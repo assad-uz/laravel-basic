@@ -8,3 +8,6 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/main', function () {
+    return view('master');
+});
