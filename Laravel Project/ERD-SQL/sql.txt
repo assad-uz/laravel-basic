@@ -1,0 +1,8 @@
+🗃️ Database Structure (উদাহরণ):
+Table Name	               Fields                                                   	Description
+users	        id, username, password, role	                                  অ্যাডমিন লগইনের জন্য
+customers	    id, name, address, phone, email, status	                               কাস্টমার তথ্য
+packages	    id, package_name, speed, duration, price, status        	            প্যাকেজ তথ্য
+connections	    id, customer_id, package_id, start_date, end_date, status	         কাস্টমার কানেকশন
+bills	        id, connection_id, bill_month, amount, due_date, status	              মাসিক বিল রেকর্ড
+payments	    id, bill_id, payment_date, amount, method, note	                       পেমেন্ট রেকর্ড
