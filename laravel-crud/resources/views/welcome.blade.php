@@ -84,7 +84,7 @@
                                 <td>{{$p->password}}</td>
                                 
                                 <td>
-                                    <button class="btn btn-sm btn-info text-white">View</button>
+                                    <button class="btn btn-sm btn-success text-white">Edit</button>
                                     <button class="btn btn-sm btn-danger">Delete</button>
                                 </td>
                             </tr>
@@ -93,9 +93,6 @@
                             
                         </tbody>
                     </table>
-                </div>
-                <div class="card-footer bg-light border-0">
-                    <p class="text-muted mb-0"><small>Showing 3 static records.</small></p>
                 </div>
             </div>
         </div>
