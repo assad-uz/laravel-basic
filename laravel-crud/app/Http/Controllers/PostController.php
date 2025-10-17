@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
 
 class PostController extends Controller
 {
@@ -12,15 +13,17 @@ class PostController extends Controller
     }
 
 
-    public function filestore(Request $request) {
-        // return $request->all(); 
+    public function filestore(Request $request): RedirectResponse {
+        $imageName = $request->file('image') 
+            ? basename($request->file('image')->store('public/images')) 
+            : null;
+
+        Post::create($request->only([
+            'name',
+            'description',
+            'image' => $imageName,
+        ]));
         // return dd($request->all()); 
-
-        $post = new Post;
-        $post->name = $request->name; 
-        $post->description = $request->description; 
-        $post->image = $request->image; 
-
-        $post->save();
+        return redirect('/')->with('success', 'Post successfully created and image uploaded!');;
     }
 }
