@@ -30,7 +30,7 @@ class PostController extends Controller
             'password',
         ]));
         // return dd($request->all()); 
-        return redirect('/')->with('success', 'Post successfully created!');;
+        return redirect('/')->with('success', 'Post successfully created!');
     }
 
 }

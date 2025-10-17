@@ -62,7 +62,7 @@
         <div class="col-lg-10">
             <div class="card shadow-lg border-0">
                 <div class="card-header bg-dark text-white">
-                    <h4 class="mb-0">All User/Post Data (Static View)</h4>
+                    <h4 class="mb-0">All Post Data</h4>
                 </div>
                 <div class="card-body p-0">
                     <table class="table table-striped table-hover table-bordered mb-0">
@@ -72,50 +72,25 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Email</th>
                                 <th scope="col">Password Hash (Truncated)</th>
-                                <th scope="col">Created At</th>
                                 <th scope="col">Actions</th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach ($posts as $p)
-                             {{$p->name}}
+                             <tr>
+                                <th scope="row">{{$loop->iteration}}</th>
+                                <td>{{$p->name}}</td>
+                                <td>{{$p->email}}</td>
+                                <td>{{$p->password}}</td>
+                                
+                                <td>
+                                    <button class="btn btn-sm btn-info text-white">View</button>
+                                    <button class="btn btn-sm btn-danger">Delete</button>
+                                </td>
+                            </tr>
                             @endforeach
                             
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>**Asaduzzaman Shaon**</td>
-                                <td>shaon@example.com</td>
-                                <td>$2y$10$Qj2S/9W3L...</td> 
-                                <td>17 Oct 2025</td>
-                                <td>
-                                    <button class="btn btn-sm btn-info text-white">View</button>
-                                    <button class="btn btn-sm btn-danger">Delete</button>
-                                </td>
-                            </tr>
                             
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Md. Rashed Khan</td>
-                                <td>rashed@gmail.com</td>
-                                <td>$2y$10$sP3V/1X0A...</td>
-                                <td>15 Oct 2025</td>
-                                <td>
-                                    <button class="btn btn-sm btn-info text-white">View</button>
-                                    <button class="btn btn-sm btn-danger">Delete</button>
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Fahima Sultana</td>
-                                <td>fahima@web.net</td>
-                                <td>$2y$10$aL4R/8Z2T...</td>
-                                <td>10 Oct 2025</td>
-                                <td>
-                                    <button class="btn btn-sm btn-info text-white">View</button>
-                                    <button class="btn btn-sm btn-danger">Delete</button>
-                                </td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
