@@ -14,16 +14,13 @@ class PostController extends Controller
 
 
     public function filestore(Request $request): RedirectResponse {
-        $imageName = $request->file('image') 
-            ? basename($request->file('image')->store('public/images')) 
-            : null;
 
         Post::create($request->only([
             'name',
             'description',
-            'image' => $imageName,
+            'image',
         ]));
         // return dd($request->all()); 
-        return redirect('/')->with('success', 'Post successfully created and image uploaded!');;
+        return redirect('/')->with('success', 'Post successfully created!');;
     }
 }
