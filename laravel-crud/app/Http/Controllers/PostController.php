@@ -8,6 +8,15 @@ use Illuminate\Http\RedirectResponse;
 
 class PostController extends Controller
 {
+    // View
+    public function index()
+    {
+        $posts = Post::all(); 
+        return view('welcome', compact('posts')); 
+    }
+
+
+    // Create
     public function create() {
         return view('create');
     }
@@ -17,10 +26,11 @@ class PostController extends Controller
 
         Post::create($request->only([
             'name',
-            'description',
-            'image',
+            'email',
+            'password',
         ]));
         // return dd($request->all()); 
         return redirect('/')->with('success', 'Post successfully created!');;
     }
+
 }
