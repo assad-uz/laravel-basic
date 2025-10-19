@@ -15,7 +15,7 @@
         <h1>Category List</h1>
 
         <br>
-        
+
       </div>
 
       <div class="container">
@@ -23,7 +23,7 @@
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Macanic name</th>
+                <th scope="col">Mechanic name</th>
                 <th scope="col">Owner Name</th>
                 <th scope="col">Car Name</th>
               </tr>
@@ -37,7 +37,7 @@
 
                 <td>{{ $single->name }}</td>
                 <td>{{ $single->carOwner->name }}</td>
-                <td>{{ $single->cars->name }}</td>
+                <td>{{ $single->cars->model }}</td>
 
 
               </tr>

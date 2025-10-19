@@ -9,4 +9,8 @@ class Mechanic extends Model
     public function carOwner() {
         return $this->hasOneThrough(Owner::class, Car::class);
     }
+
+    public function cars() {
+        return $this->hasOne(Car::class);
+    }
 }
