@@ -15,11 +15,7 @@
         <h1>Category List</h1>
 
         <br>
-        <a href="{{ route('create') }}">
-          <button class="btn btn-md btn-success">Add Category</button>
-        </a>
-
-
+        
       </div>
 
       <div class="container">
@@ -34,7 +30,7 @@
             </thead>
             <tbody>
 
-             @foreach ($product as $single )
+             @foreach ($mechanics as $single )
 
               <tr>
                 <th scope="row">{{ $loop->iteration }}</th>

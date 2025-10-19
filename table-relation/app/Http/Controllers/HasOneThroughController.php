@@ -8,8 +8,8 @@ class HasOneThroughController extends Controller
 {
         public function index()
     {
-        $product = Mechanic::with('carOwner')->get();
-        //    return  $product;
-         return view('has-one-through.index',compact('product'));
+        $mechanics = Mechanic::with('carOwner')->get();
+        //    return  $mechanics;
+         return view('has-one-through.index',compact('mechanics'));
     }
 }
