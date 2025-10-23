@@ -11,4 +11,4 @@ Route::get('/', function () {
 Route::get('/has-one-through', [HasOneThroughController::class, 'index']);
 
 // HasManyThrough 
-Route::get('/country-articles', [HasManyThroughController::class, 'index']);
+Route::get('/has-many-through', [HasManyThroughController::class, 'index']);
