@@ -1,0 +1,52 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.main-menu .main-menu__list > li > ul > li > a::before,
+.main-menu .main-menu__list > li > ul > li > ul > li > a::before,
+.stricky-header .main-menu__list > li > ul > li > a::before,
+.stricky-header .main-menu__list > li > ul > li > ul > li > a::before {
+  content: "\f30a";
+}
+
+.main-menu__right-top::before {
+  background-color: var(--zeinet-primary);
+}
+
+.brand-one-shape-1 img,
+.brand-one-shape-2 img,
+.live-sports-shape-1 img,
+.site-footer-shape-bg,
+.service-available__shape-1 img,
+.service-available__shape-2 img,
+.service-available__shape-3 img,
+.service-available__shape-4 img,
+.testimonial-one-bg,
+.plans-one__list li .icon,
+.save-money-shape,
+.save-money-bg,
+.why-choose-one-shape-1 img,
+.why-choose-one-shape-2 img,
+.feature-one-shape img,
+.main-slider__icon img {
+  transform: scaleX(-1);
+}

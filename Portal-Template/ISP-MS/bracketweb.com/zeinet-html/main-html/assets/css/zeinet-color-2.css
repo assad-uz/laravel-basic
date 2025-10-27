@@ -1,0 +1,17 @@
+:root {
+  --zeinet-font: "Outfit", sans-serif;
+  --zeinet-gray: #6A6D7A;
+  --zeinet-gray-rgb: 106, 109, 122;
+  --zeinet-white: #ffffff;
+  --zeinet-white-rgb: 255, 255, 255;
+  --zeinet-base: #D80E1F;
+  --zeinet-base-rgb: 216, 14, 31;
+  --zeinet-black: #000D3A;
+  --zeinet-black-rgb: 0, 13, 58;
+  --zeinet-black2: #1B1F2E;
+  --zeinet-black2-rgb: 27, 31, 46;
+  --zeinet-extra: #F5F7FA;
+  --zeinet-extra-rgb: 245, 247, 250;
+}
+
+/*# sourceMappingURL=zeinet-color-2.css.map */

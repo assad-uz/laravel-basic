@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 26 Oct 2025 10:33:04 at https://bracketweb.com/zeinet-html/main-html/index3-one-page.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://bracketweb.com/zeinet-html/main-html/index3-one-page.html -O1 "D:\xampp\htdocs\Laravel\ISP-MS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:33:52	Error: 	"Not Found" (404) at link https://bracketweb.com/zeinet-html/main-html/assets/css/zeinet-responsive.css (from https://bracketweb.com/zeinet-html/main-html/index3-one-page.html)
+10:34:29	Error: 	"Not Found" (404) at link https://bracketweb.com/zeinet-html/main-html/assets/vendors/owl-carousel/owl.video.play.png (from https://bracketweb.com/zeinet-html/main-html/assets/vendors/owl-carousel/owl.carousel.min.css)
+10:34:29	Error: 	"Not Found" (404) at link https://bracketweb.com/zeinet-html/main-html/assets/vendors/images/icon/bx_loader.gif (from https://bracketweb.com/zeinet-html/main-html/assets/vendors/bxslider/jquery.bxslider.css)
+10:34:29	Error: 	"Not Found" (404) at link https://bracketweb.com/zeinet-html/main-html/assets/vendors/img/bx-slider/controls.png (from https://bracketweb.com/zeinet-html/main-html/assets/vendors/bxslider/jquery.bxslider.css)
+10:34:29	Error: 	"Not Found" (404) at link https://bracketweb.com/zeinet-html/main-html/assets/vendors/vegas/overlays/02.png (from https://bracketweb.com/zeinet-html/main-html/assets/vendors/vegas/vegas.min.css)
+10:34:29	Error: 	"Not Found" (404) at link https://bracketweb.com/zeinet-html/main-html/assets/vendors/timepicker/images/ui-icons_444444_256x240.png (from https://bracketweb.com/zeinet-html/main-html/assets/vendors/timepicker/timePicker.css)
+10:35:20	Error: 	"Not Found" (404) at link https://bracketweb.com/zeinet-html/main-html/broadsatelite-tvand.html (from https://bracketweb.com/zeinet-html/main-html/index4.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 16 seconds : 449 links scanned, 441 files written (32643923 bytes overall) [26365721 bytes received at 193865 bytes/sec], 8530807 bytes transferred using HTTP compression in 122 files, ratio 24%, 25.0 requests per connection
+(7 errors, 0 warnings, 0 messages)

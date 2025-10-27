@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoonc551.eot?90npx');
+  src:  url('fonts/icomoonc551.eot?90npx#iefix') format('embedded-opentype'),
+    url('fonts/icomoonc551.ttf?90npx') format('truetype'),
+    url('fonts/icomoonc551.woff?90npx') format('woff'),
+    url('fonts/icomoonc551.svg?90npx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="zeinet-icons-two-"], [class*=" zeinet-icons-two-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zeinet-icons-two-arrow-left:before {
+  content: "\e900";
+}
+.zeinet-icons-two-arrow-right:before {
+  content: "\e901";
+}
+.zeinet-icons-two-arrow-up:before {
+  content: "\e902";
+}
+.zeinet-icons-two-arrow-down:before {
+  content: "\e903";
+}
+.zeinet-icons-two-award:before {
+  content: "\e904";
+}
+.zeinet-icons-two-camera:before {
+  content: "\e905";
+}
+.zeinet-icons-two-cart:before {
+  content: "\e906";
+}
+.zeinet-icons-two-check-circle:before {
+  content: "\e907";
+}
+.zeinet-icons-two-download:before {
+  content: "\e908";
+}
+.zeinet-icons-two-envelope:before {
+  content: "\e909";
+}
+.zeinet-icons-two-internet:before {
+  content: "\e90a";
+}
+.zeinet-icons-two-location:before {
+  content: "\e90b";
+}
+.zeinet-icons-two-movie:before {
+  content: "\e90c";
+}
+.zeinet-icons-two-phone:before {
+  content: "\e90d";
+}
+.zeinet-icons-two-play:before {
+  content: "\e90e";
+}
+.zeinet-icons-two-project:before {
+  content: "\e90f";
+}
+.zeinet-icons-two-review:before {
+  content: "\e910";
+}
+.zeinet-icons-two-satelite:before {
+  content: "\e911";
+}
+.zeinet-icons-two-service:before {
+  content: "\e912";
+}
+.zeinet-icons-two-wifi:before {
+  content: "\e913";
+}
+.zeinet-icons-two-wifi-two:before {
+  content: "\e914";
+}

@@ -1,0 +1,473 @@
+.faq-one__right,
+.demo-one,
+body,
+body.boxed-wrapper .page-wrapper,
+.feature-one__icon,
+.why-choose-one__content,
+.checkout__payment__title::before,
+.feature-two__carousel.owl-theme .owl-nav .owl-prev,
+.feature-two__carousel.owl-theme .owl-nav .owl-next,
+.all-time-hit--two,
+.stricky-header.main-menu-three .main-menu-three__help-line-icon,
+.plans-one__icon-box i,
+.price__single,
+.contact-page__form-input-box input[type=text],
+.contact-page__form-input-box input[type=email],
+.contact-page__form-input-box textarea,
+.testimonial-one__content,
+.brand-two,
+.services-carousel-page,
+.sidebar__post-list li:hover,
+.sidebar__category-list li a:hover,
+.sidebar__category-list li.active a,
+.sidebar__comments-icon,
+.product-description,
+.sidebar__tags-list a,
+.cart-page,
+.testimonial-one__quote {
+  background-color: #272b30;
+}
+
+.movie-more-review__input-box input[type=text],
+.movie-more-review__input-box input[type=email],
+.movie-more-review__input-box textarea,
+.news-details__pagenation li,
+.news-details__social-list a,
+.comment-form__input-box textarea,
+.comment-form__input-box input[type=text],
+.comment-form__input-box input[type=email],
+.sidebar__tags,
+.sidebar__category,
+.sidebar__post,
+.sidebar__comments,
+.news-sidebar__bottom-box,
+.news-sidebar__delivering-services,
+.review-form-one__input-box input[type=text],
+.review-form-one__input-box input[type=email],
+.review-form-one__input-box textarea,
+.product-details__social-link a,
+.shop-category ul li:hover a,
+.shop-category ul li.active a,
+.shop-category ul li a::before,
+.faq-page__left,
+.contact-page__content-inner,
+.google-map,
+.billing_details_form .select-box .nice-select,
+.ship_different_address_form .ship_different_input textarea,
+.billing_input_box input[type=text],
+.billing_input_box input[type=email],
+.billing_input_box input[type=tel],
+.checkout__payment,
+.cart-cupon__input,
+.service-details__category-list li a,
+.service-details__need-help-icon,
+.error-page__form input[type=search],
+.demo-one__card,
+.services-one__arrow a,
+.services-one__single,
+.price__box,
+.main-menu-three__help-line-icon,
+.service-available__btn::before,
+.main-menu .main-menu__list > li > ul,
+.main-menu .main-menu__list > li > ul > li > ul,
+.stricky-header .main-menu__list > li > ul,
+.stricky-header .main-menu__list > li > ul > li > ul,
+.feature-two,
+.search-popup__content .thm-btn::before,
+.counter-one__inner,
+.categories-one__single,
+.faq-one__wrapper,
+.main-menu__wrapper,
+.feature-one__single-content-box,
+.why-choose-one,
+.plans-one__bottom,
+.news-one:before,
+.news-one__content-box,
+.stricky-header.main-menu,
+.feature-one__icon:before {
+  background-color: var(--zeinet-black);
+}
+
+.main-menu .main-menu__list > li > a,
+.stricky-header .main-menu__list > li > a,
+.main-menu__help-line-sub-title,
+.feature-one__text,
+.about-one__text-2,
+.why-choose-one__text,
+.plans-one__list li .text p,
+.plans-one__price-time,
+.testimonial-one__text,
+.testimonial-one__client-sub-title,
+.live-sports__text,
+.live-sports__points li .content p,
+.news-one__meta li a,
+.news-one__read-more {
+  color: #a4a9ae;
+}
+
+.movie-more-review__title-2,
+.movie-more-review__text-box-right p,
+.movie-more-review__title,
+.movie-more__main-title,
+.top-cast__bottom-title,
+.top-cast__content h5,
+.top-cast__title,
+.trailer-and-photo__title,
+.movie-top__list li .left p,
+.movie-top__text-1,
+.movie-top__title,
+.comment-one__content h3,
+.news-details__pagenation li,
+.news-details__tags span,
+.news-details__social-list a,
+.news-details__title,
+.comment-one__title,
+.comment-form__title,
+.sidebar__tags-list a,
+.sidebar__comments-text-box p span,
+.sidebar__comments-icon,
+.sidebar__category-list li a:hover,
+.sidebar__category-list li.active a,
+.sidebar__post-content h3 a,
+.sidebar__title,
+.news-sidebar__delivering-services-title a,
+.news-sidebar__arrow,
+.news-sidebar__read-more,
+.news-sidebar__title a,
+.product-details__social-link a,
+.product-description__list ul li p,
+.product-description__title,
+.product-details__social .title h3,
+.product-details__quantity-title,
+.product-details__title,
+.review-one__content-top .info h2,
+.review-one__title h3,
+.review-form-one__title,
+.product__all-title a,
+.shop-category ul li:hover a,
+.shop-category ul li.active a,
+.product__sidebar-title,
+.contact-page__contact-list li .content h4,
+.contact-page__contact-list li .content h4 a,
+.checkout__payment__title,
+.order_table_head th,
+.your_order h2,
+.billing_title h2,
+.cart-page__buttons-1 .thm-btn:hover,
+.cart-total li span:first-child,
+.cart-table .cross-icon,
+.cart-table h3 a,
+.cart-table thead th,
+.service-details__category-list li a span,
+.service-details__category-list li a,
+.service-details__title,
+.service-details__quote-text,
+.service-details__benefit-title,
+.service-details__benefit-points li .text p,
+.about-four__points li .text p,
+.error-page__form button[type=submit],
+.megamenu-popup .megamenu-clickable--close,
+.demo-one__title,
+.services-one__arrow a,
+.services-one__title a,
+.price__progress-box .price__pack p,
+.price__progress-content h3,
+.price__box-price,
+.main-menu-three__search,
+.main-menu-three__help-line-number a,
+.about-two__points li .content p,
+.testimonial-two__client,
+.newsletter__content h3,
+.all-time-hit--two .section-title__title,
+.feature-two__text,
+.feature-two__carousel.owl-theme .owl-nav .owl-prev,
+.feature-two__carousel.owl-theme .owl-nav .owl-next,
+.counter-one__count-box h3,
+.categories-one__title,
+.faq-one-accrodion .accrodion-title h4::before,
+.faq-one-accrodion .accrodion-title h4,
+.main-menu .main-menu__list > li.current > a,
+.main-menu .main-menu__list > li:hover > a,
+.stricky-header .main-menu__list > li.current > a,
+.stricky-header .main-menu__list > li:hover > a,
+.stricky-header.main-menu-three .main-menu__list > li:hover > a,
+.service-available__btn:hover,
+.main-menu__search,
+.main-menu__help-line-number a,
+.feature-one__title a,
+.section-title__title,
+.about-one__points li .text p,
+.why-choose-one__title,
+.why-choose-one__single:hover .why-choose-one__icon span,
+.plans-one__title,
+.plans-one__price,
+.testimonial-one__client-name,
+.live-sports__points li .content h4,
+.news-one__title a {
+  color: var(--zeinet-white);
+}
+
+.product__showing-sort .bootstrap-select > .dropdown-toggle {
+  background-color: var(--zeinet-black) !important;
+}
+
+.contact-page__content-inner {
+  border-color: var(--zeinet-black);
+}
+
+.main-menu-three__search-box:before,
+.newsletter__input-box:before,
+.counter-one__single:before,
+.main-menu__search-box:before {
+  background-color: rgba(var(--zeinet-white-rgb), 0.1);
+}
+
+.services-one,
+.testimonial-two,
+.newsletter,
+.main-menu__help-line-icon,
+.testimonial-one,
+.feature-one__single-content-box:before {
+  background-color: #202428;
+}
+
+.about-one__points li .icon {
+  color: var(--zeinet-black);
+}
+
+.thm-btn:hover {
+  color: var(--zeinet-base);
+}
+
+.service-details__category-list li a::after {
+  background-color: var(--zeinet-primary);
+}
+
+.thm-btn::before {
+  background-color: var(--zeinet-white);
+}
+
+.why-choose-one-shape-1,
+.why-choose-one-shape-2 {
+  opacity: 0.06;
+}
+
+.plans-one__single {
+  border: 1px solid #35393e;
+}
+
+.movie-more-review__single,
+.comment-one__single,
+.news-details__bottom,
+.comments-area .comment-box,
+.comments-area,
+.product-details__reveiw,
+.shop-category,
+.product__price-ranger,
+.brand-two,
+.order_table_box,
+.order_table_head,
+.cart-table tbody td,
+.price__single,
+.faq-one-accrodion .accrodion.active.last-chiled .accrodion-title,
+.faq-one-accrodion .accrodion-content,
+.faq-one-accrodion .accrodion-title,
+.plans-one__price-box,
+.news-one__read-more {
+  border-color: rgba(var(--zeinet-white-rgb), 0.1);
+}
+
+.contact-page-shape-1 img,
+.testimonial-one-bg {
+  opacity: 0.06;
+}
+
+.testimonial-one__carousel.owl-theme .owl-nav .owl-prev,
+.testimonial-one__carousel.owl-theme .owl-nav .owl-next {
+  color: var(--zeinet-white);
+  background-color: var(--zeinet-black);
+}
+
+.testimonial-two-bg,
+.main-menu .main-menu__list > li > ul > li > a,
+.main-menu .main-menu__list > li > ul > li > ul > li > a,
+.stricky-header .main-menu__list > li > ul > li > a,
+.stricky-header .main-menu__list > li > ul > li > ul > li > a {
+  background-color: transparent;
+}
+
+.testimonial-two-bg {
+  mix-blend-mode: luminosity;
+}
+
+.services-one-shape-1 img,
+.services-one-shape-2 img,
+.feature-two-shape-1 img,
+.feature-two-shape-2 img {
+  filter: brightness(0) invert(1) drop-shadow(2px 4px 6px var(--zeinet-white));
+}
+
+.google-map__one {
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+/*-- Home 4 --*/
+.service-four__item__normal,
+.price-three__item__pack,
+.price-three,
+.faq-two__accrodion .accrodion.active .accrodion-title__icon::after,
+.faq-two__accrodion .accrodion.active .accrodion-title__icon::before,
+.site-footer-two__top,
+body.home-four-dark {
+  background-color: #050b23;
+}
+
+.price-three__item--reverse .thm-btn::before,
+.faq-two__accrodion .accrodion .accrodion-title__icon::after,
+.faq-two__accrodion .accrodion .accrodion-title__icon::before {
+  background-color: var(--zeinet-white);
+}
+
+.testimonial-four__single__top::after,
+.testimonial-four__single__top,
+.movie-four__single .video-popup,
+.movie-four__single__ratings,
+.movie-four__carousel.owl-carousel .owl-nav button,
+.service-four__item__hover__icon,
+.service-four,
+.price-three__item,
+.video-section__btn .video-popup,
+.news-three__single,
+.site-footer-two__form input[type=email],
+.site-footer-two__about__social a {
+  background-color: var(--zeinet-black2);
+}
+
+.movie-four__single__ratings,
+.movie-four__carousel.owl-carousel .owl-nav button,
+.offer-one__content__info__text,
+.offer-one__content__heading,
+.service-four__item__hover__icon,
+.service-four__item__normal__title,
+.price-three__item__pack span,
+.price-three__item__list li,
+.price-three__item__text,
+.price-three__item__price,
+.price-three__item__title,
+.faq-two__accrodion .accrodion .accrodion-title h4,
+.news-three__single__title,
+.section-title--home-four .section-title__title,
+.site-footer-two__about__social a,
+.site-footer-two .footer-widget__links-list li a,
+.site-footer-two .footer-widget__title {
+  color: var(--zeinet-white);
+}
+
+.faq-two__accrodion .accrodion.active .accrodion-title h4 {
+  color: var(--zeinet-black);
+}
+
+.faq-two__shape__two {
+  background: linear-gradient(180deg, var(--zeinet-black2) 0%, var(--zeinet-primary) 103%);
+}
+
+.faq-two__shape__three {
+  background: linear-gradient(0deg, var(--zeinet-black2) 0%, var(--zeinet-primary) 103%);
+}
+
+.site-footer-two__top {
+  background-blend-mode: color;
+}
+
+.offer-one__content__price li,
+.about-five__counter + .about-five__counter {
+  border-color: rgba(var(--zeinet-white-rgb), 0.1);
+}
+
+.offer-one__content__info__icon img {
+  filter: brightness(0) invert(1);
+}
+
+/*-- Home 5 --*/
+.about-six__image__right__history__number,
+.service-five__item .thm-btn--two,
+.offer-two__tabs,
+.price-four__item,
+.counter-four__single,
+.product-one__single__btn a,
+.product-one__single__cart a,
+.product-one__single__img,
+.feature-four__single,
+.site-footer-two--home-five .site-footer-two__top,
+body.home-five-dark {
+  background-color: #050b23;
+}
+
+.about-six__image__right__history,
+.about-six__content__bar,
+.service-five__item__icon__inner,
+.service-five__item,
+.offer-two__tabs__list li,
+.offer-two .video-popup,
+.offer-two,
+.price-four__item__pack__inner,
+.price-four,
+.testimonial-five__carousel.owl-carousel .owl-nav button,
+.product-one__single__top,
+.about-six__box__icon,
+.feature-four,
+.news-four__single,
+.site-footer-two--home-five .site-footer-two__about__social a,
+.site-footer-two--home-five .site-footer-two__form input[type=email],
+.main-header-five {
+  background-color: var(--zeinet-black);
+}
+
+.error-page__tagline,
+.about-six__image__right__history__number,
+.about-six__image__right__history__text,
+.service-five__item__title,
+.service-five__item__icon__inner,
+.offer-two__tabs__list li,
+.price-four__item__list li,
+.price-four__item__price,
+.price-four__item__pack__inner span,
+.price-four__item .thm-btn--two:hover,
+.counter-four__single__text,
+.testimonial-five__carousel.owl-carousel .owl-nav button,
+.product-one__single__btn a,
+.product-one__single__cart a,
+.product-one__single__title,
+.about-six__box__title,
+.news-four__single .thm-btn--two:hover,
+.news-four__single__title,
+.section-title--two .section-title__title,
+.main-header-five .main-menu .main-menu__list > li > a,
+.main-header-five.stricky-header .main-menu__list > li > a {
+  color: var(--zeinet-white);
+}
+
+.section-title--two .section-title__tagline::after {
+  background-color: var(--zeinet-black);
+}
+
+.product-one__single {
+  border-color: rgba(var(--zeinet-white-rgb), 0.1);
+}
+
+.sdfd-four {
+  background-blend-mode: color;
+}
+
+.offer-two__tabs__list li::after {
+  border-color: var(--zeinet-black) transparent transparent transparent;
+}
+
+.scroll-to-target--home-five:hover {
+  background-color: var(--zeinet-white);
+}
+.scroll-to-target--home-five:hover i {
+  color: var(--zeinet-base);
+}
+
+/*# sourceMappingURL=zeinet-dark.css.map */

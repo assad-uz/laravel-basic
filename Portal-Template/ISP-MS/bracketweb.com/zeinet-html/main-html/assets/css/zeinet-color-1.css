@@ -1,0 +1,17 @@
+:root {
+  --zeinet-font: "Outfit", sans-serif;
+  --zeinet-gray: #6A6D7A;
+  --zeinet-gray-rgb: 106, 109, 122;
+  --zeinet-white: #ffffff;
+  --zeinet-white-rgb: 255, 255, 255;
+  --zeinet-base: #3FF1BB;
+  --zeinet-base-rgb: 63, 241, 187;
+  --zeinet-primary: #674DF0;
+  --zeinet-primary-rgb: 103, 77, 240;
+  --zeinet-black: #1B1F2E;
+  --zeinet-black-rgb: 27, 31, 46;
+  --zeinet-black2: #000D3A;
+  --zeinet-black2-rgb: 0, 13, 58;
+  --zeinet-extra: #F5F7FA;
+  --zeinet-extra-rgb: 245, 247, 250;
+}
